@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+	<title>Code Respawn - Plotter</title>
+	<meta http-equiv="Content-Language" content="en-us" />
+	<meta name="author" content="Ali Akbar Vathi" />
+	
+	<style type="text/css" media="all">@import "resources/css/master.css";</style>
+	<style type="text/css" media="all">@import "resources/css/widgets.css";</style>
+</head>
+
+<body>
+	<div id="page-container">
+		<div id="header"></div>
+		<div id="content">
+			<canvas id="canvas" width="850" height="650"></canvas>
+		</div>
+		<div id="sidebar-a">
+			<a href="#" id="btnToolPan" class="toolbutton">Pan</a>
+			<a href="#" id="btnToolAddPoint" class="toolbutton">Add Point</a>
+			<a href="#" id="btnToolRemovePoint" class="toolbutton">Del Point</a>
+			<a href="#" id="btnToolMovePoint" class="toolbutton">Move Point</a>
+		</div>
+		<div id="footer">
+			<div id="altnav">
+				<a href="#">About</a> - 
+				<a href="#">Products</a> - 
+				<a href="#">Portfolio</a> - 
+				<a href="#">Contact</a> - 
+				<a href="#">Terms of Usage</a>
+			</div>
+			Copyright © Code Respawn.
+		</div>
+	</div>
+
+    <script type="application/dart" src="plot_spawn.dart"></script>
+    <script src="http://dart.googlecode.com/svn/branches/bleeding_edge/dart/client/dart.js"></script>
+</body>
+</html>
